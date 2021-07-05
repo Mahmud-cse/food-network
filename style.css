@@ -14,6 +14,11 @@ h2 {
     font-size: 40px;
 }
 
+h4 {
+    color: #828282;
+    font-size: 16px;
+}
+
 p {
     color: #828282;
     font-size: 18px;
@@ -21,7 +26,6 @@ p {
     margin-bottom: 80px;
     line-height: 0.8cm;
 }
-
 
 .name-color {
     color: #fc8b47;
@@ -67,4 +71,41 @@ p {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+
+.title {
+    width: 50%;
+    text-align: center;
+    margin-bottom: -60px;
+    margin-left: 25%;
+
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 23%;
+    height: 100%;
+    margin: 20px 30px;
+    border: 18px solid white;
+    box-shadow: 1px 5px 30px gray;
+    border-radius: 35px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 20px;
+
+}
+
+.box .text h2 {
+    color: black;
+    font-size: 30px;
 }
