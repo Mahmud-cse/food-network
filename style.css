@@ -109,3 +109,17 @@ p {
     color: black;
     font-size: 30px;
 }
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    margin: 130px;
+    border: 18px solid white;
+    box-shadow: 1px 5px 30px gray;
+    border-radius: 30px;
+}
+
+.followers {
+    padding: 30px 100px;
+    line-height: 0.2cm;
+}
