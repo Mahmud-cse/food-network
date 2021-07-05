@@ -9,13 +9,19 @@ h1 {
     color: #575757;
 }
 
-h3 {
-    color: #828282;
+h2 {
+    color: #575757;
+    font-size: 40px;
 }
 
-.first-h3 {
+p {
+    color: #828282;
+    font-size: 18px;
+    font-weight: lighter;
     margin-bottom: 80px;
+    line-height: 0.8cm;
 }
+
 
 .name-color {
     color: #fc8b47;
@@ -25,8 +31,10 @@ h3 {
     width: 50%;
 }
 
-.half img {
-    width: 80%;
+.img2 img {
+    width: 50%;
+    padding-top: 70px;
+    margin-left: 200px;
 }
 
 .size {
@@ -50,4 +58,13 @@ h3 {
 
 .first {
     display: flex;
+    margin-bottom: 70px;
+}
+
+.second {
+    display: flex;
+    margin-bottom: 70px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
