@@ -89,7 +89,6 @@ p {
 
 .box {
     width: 23%;
-    height: 100%;
     margin: 20px 30px;
     border: 18px solid white;
     box-shadow: 1px 5px 30px gray;
@@ -122,4 +121,36 @@ p {
 .followers {
     padding: 30px 100px;
     line-height: 0.2cm;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.box-review {
+    width: 23%;
+    margin: 20px 30px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-customer img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-review h4 {
+    text-align: center;
+}
+
+
+.five {
+    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-size: cover;
 }
