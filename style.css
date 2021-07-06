@@ -154,3 +154,15 @@ p {
     background-image: url(images/shapes/Frame\ 56.jpg);
     background-size: cover;
 }
+
+footer h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+footer {
+    background: #111;
+    padding: 20px 40px 100px;
+    text-align: center;
+    line-height: 1.2cm;
+}
